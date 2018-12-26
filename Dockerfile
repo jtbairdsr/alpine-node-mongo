@@ -1,4 +1,7 @@
-FROM mhart/alpine-node
+FROM mhart/alpine-node:11.5.0
+
+MAINTAINER "Jonathan Baird <jtbairdsr@me.com>"
+LABEL maintainer "Jonathan Baird <jtbairdsr@me.com>" architecture="AMD64/x86_64"
 
 ADD run /
 ADD https://raw.githubusercontent.com/mvertes/dosu/0.1.0/dosu /sbin/
