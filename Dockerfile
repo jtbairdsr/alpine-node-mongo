@@ -13,5 +13,7 @@ RUN chmod +x /sbin/dosu && \
 VOLUME /data/db
 EXPOSE 27017 28017
 
+ENV MONGOMS_SYSTEM_BINARY /usr/bin/mongod
+
 ENTRYPOINT [ "/run" ]
 CMD [ "mongod" ]
