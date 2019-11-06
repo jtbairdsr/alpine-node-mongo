@@ -1,4 +1,4 @@
-FROM node:8.15.0-alpine
+FROM node:10.17.0-alpine
 
 MAINTAINER "Jonathan Baird <jtbairdsr@me.com>"
 LABEL maintainer "Jonathan Baird <jtbairdsr@me.com>" architecture="AMD64/x86_64"
